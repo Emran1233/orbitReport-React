@@ -5,8 +5,8 @@ const Table = ({ sat }) => {
      <tr>  
        <th> Name </th> 
        <th> Type of Satellite  </th> 
-       <th> Launch Date </th>
        <th> Status </th>
+       <th> Launch Date </th>
      </tr>
      </thead>
      <tbody>  
@@ -17,8 +17,8 @@ const Table = ({ sat }) => {
           key={id}   
           <td>{data.name}</td> 
           <td>{data.type}</td>  
-          <td>{data.launchDate}</td> 
-          <td>{data.status}</td>
+          <td>{data.status}</td> 
+          <td>{data.launchDate}</td>
         </tr>  
         ); 
         }
