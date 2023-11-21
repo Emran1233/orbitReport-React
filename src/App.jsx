@@ -14,13 +14,13 @@ function App() {
   setSat(displaySats);
 };
   return (
-    <>
+    <> 
+      <Banner/>
       <Buttons 
          setSat={setSat}
          displaySats={displaySats}
          filterByType={filterByType}
       />
-      <Banner/>
       <Table sat={sat} />
     </>
   );
